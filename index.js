@@ -15,11 +15,11 @@ randomimgsrc2="images/dice" + randomnumber2 +  ".png";
 document.querySelectorAll("img")[1].setAttribute("src",randomimgsrc2);
 
 if(randomnumber1>randomnumber2){
-    document.querySelector("h1").innerHTML = "player 1 is win"
+    document.querySelector("h1").innerHTML = "1st player wins"
 }
 else if(randomnumber2>randomnumber1) {
-    document.querySelector("h1").innerHTML = "player 2 is win"
+    document.querySelector("h1").innerHTML = "2nd player wins"
 }
 else{
-    document.querySelector("h1").innerHTML = "match draw"
+    document.querySelector("h1").innerHTML = "match is draw"
 }
